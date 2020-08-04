@@ -15,6 +15,6 @@ public class HerokuSpringbootApplication {
 
 	@RequestMapping(value = "/")
 	public String hello() {
-		return "Hello World!";
+		return "Hello SpringBoot on Heroku!";
 	}
 }
